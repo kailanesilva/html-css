@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+@font-face {
+    font-family: 'Mother' ;
+    src: url('fontes/Mother\ Tongue.otf') format('opentype'), url('fontes/Mother\ Tongue.ttf') format('truetype');
+}
+
+body{
+    background-image: linear-gradient(to right, #D9AC84, #F2D7B6 );
+}
+
+main{
+    background-color: white;
+    width: 700px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 5px 10px 5px #7c624c73;
+}
+
+p{
+    color: #261D15;
+    font-family: 'Karla', sans-serif;
+    text-align: justify;
+}
+
+h1{
+   color: #260101;
+   font-family: 'Mother';
+   font-size: 3em;
+   text-align: center;
+   text-shadow: #13000088;
+}
+
+h2{
+    color: #594C45;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 2em;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}

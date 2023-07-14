@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+      ul{
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .movie li:first-child{
+        color: mediumblue;
+      }
+
+      .movie li:last-child{
+        color: red;
+      }
+      
+      .movie li:nth-child(2){
+        background-color: aquamarine;
+      }
+    </style>
+</head>
+<body>
+    <h1>Pseudo-Classes</h1>
+    <h2>Tipos de Filmes Que Mais Gosto:</h2>
+    <ul class="movie">
+        <li>Terror</li>
+        <li>Ação</li>
+        <li>Comédia</li>
+        <li>Romance</li>
+    </ul>
+</body>
+</html>

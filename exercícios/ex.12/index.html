@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos em HTML</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospeados localmente.</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+   <video width="300" poster="imagem/pexels-julian-majer-1009681.jpg" controls autoplay loop>
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    <source src="midia/meu-video.ogv" type="video/ogg">
+    <source src="midia/meu-video.webm" type="video/webm">
+    <source src="midia/meu-video.m4v" type="video/mp4"> <!--tem ainda o tamanho m4v que é mp4 também-->
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+   </video>
+   
+   <h1>Inserindo vídeos do YouTube</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/U0kxkksURss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <h1>Inserindo vídeos do Vimeo</h1>
+   <iframe title="vimeo-player" src="https://player.vimeo.com/video/773803880?h=8bcc170c7f" width="640" height="360" frameborder="0"    allowfullscreen></iframe>
+</body>
+</html>

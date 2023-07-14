@@ -1,0 +1,69 @@
+body{
+    background-color: lightblue;
+}
+
+p, h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal{
+     color: crimson;
+     text-align: center;
+     text-shadow: 1px 2px 1px rgba(220, 20, 60, 0.342);
+}
+
+h1{
+    color: deeppink;
+}
+
+h2{
+    color: orchid;
+}
+
+a{
+    text-decoration: none;
+    color: crimson;
+}
+
+a:focus{
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: deeppink;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: orchid;
+}
+
+a::before{
+    content: '⇒ ';
+    color: rgba(220, 20, 60, 0.541);
+}
+
+a::after{
+    content: ' ⇐';
+    color: rgba(220, 20, 60, 0.541);
+}
+
+input{
+    height: 30px;
+    width: 50px;
+    background-color: lightcoral;
+    border: 1px solid black ;
+}
+
+.sim:active{
+    background-color: green;
+}
+
+.nao:active{
+    background-color: red;
+}

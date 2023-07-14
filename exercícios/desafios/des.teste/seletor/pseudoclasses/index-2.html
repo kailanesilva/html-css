@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        p,div{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+         display: block;
+         background-color:red;
+         color: white;
+         width: 170px;
+        }
+
+        div:hover{
+            color: red;
+        }
+
+        input{
+            background-color: lightgreen;
+        }
+
+        input:hover{
+        background-color: lightskyblue;
+        }
+
+        a:link{color: blue;}
+        a:visited{color: purple;}
+        a:hover{font-weight: bold;}
+        a:active{color: lime;}
+    </style>
+</head>
+<body>
+    <h1>Conhecendo as Pseudo-Classes 2.0</h1>
+    <p>Vamos treinar mais um pouco...</p>
+    <div>Mais um exemplo
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do exemplo.</p>
+    <input type="button" value="Fim">
+    <p>Passe o mouse em cima do botão e veja o que acontece...</p>
+    <h1>Testando mais uma vez</h1>
+    <p>Acesse o link abaixo</p>
+    <p><a href="https://translate.google.com.br/?sl=en&tl=pt&text=hover&op=translate">Google Tradutor</a></p>
+</body>
+</html>

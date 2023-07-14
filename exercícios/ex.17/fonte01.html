@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+             cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+             em, ex, rem, vw, vh, %
+             16px geralmente é = 1em
+
+             recomendação da W3C é usar em tamanhos de fontes somente o px(pixels) e o em(altura do M)
+            */
+        }
+
+            h1{
+                /*shorthand font
+                -font-style -> font-weight -> font-size -> font-family
+                
+                font-family: 'Work Sans', sans-serif
+                font-weight: bolder;
+                font-size: 3em;
+                font-style: italic;        (para poupar espaço, pode-se usar a configuração de baixo, ao invés dessa.)
+                */
+                font: italic bolder 3em 'Work Sans';
+            }
+            
+            h2{
+                font: bold 2em 'Work Sans';
+            }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae debitis nobis facilis. Unde quod repellendus numquam ducimus perspiciatis. Deserunt cupiditate ea eligendi minus minima id quae corrupti doloremque quas ratione. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam deleniti at voluptate repudiandae rerum enim praesentium consequatur architecto, tenetur sed. Error provident excepturi nam explicabo similique consectetur impedit vitae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti dolorum eius id saepe, dolorem, quo corrupti numquam amet placeat voluptates soluta voluptas cupiditate officiis architecto nostrum ab eos perferendis suscipit.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores libero veritatis doloribus repellat, facere inventore dolores id fugiat reiciendis praesentium similique ab qui laborum tenetur vero harum iusto quaerat. Earum!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore adipisci ipsam possimus minus sint vero aut, blanditiis nostrum reiciendis eligendi, pariatur tenetur rem. Perferendis enim corporis fuga nemo, ad unde!</p>
+
+</body>
+</html>

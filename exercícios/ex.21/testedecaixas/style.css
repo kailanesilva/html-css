@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+body{
+    background-color: lightgray;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Ultra', serif;
+    color: white;
+    font-weight: normal;
+    margin-left: 150px;
+}
+h1#principal, h2{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    margin-top: 1px;
+}
+h1#principal{
+    text-align: center;
+}
+a{
+    background-color: black;
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 65px;
+}
+a:active{
+    background-color: white;
+    color: black;
+}
+main{
+    background-color: white;
+    padding: 80px;
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    text-align: justify;
+}
+header{
+    background-color: rgb(70, 70, 70);
+    padding: 1px;
+    height: 150px;
+}
+footer{
+    background-color: rgb(70, 70, 70);
+    padding: 4px;
+    text-align: center;
+}
