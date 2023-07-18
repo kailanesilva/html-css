@@ -42,7 +42,7 @@ header > h1 > img{
 
 header > p{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-padrão);
     padding-left: 10px;
     padding-right: 10px;
 }
