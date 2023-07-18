@@ -65,10 +65,6 @@ nav > a:hover{
     text-decoration: underline;
 }
 
-picture.imagem{
-    display: inline-block;
-}
-
 section{
     background-color: white;
     max-width: 800px;
@@ -92,23 +88,39 @@ section > main > p{
     text-align: justify;
     text-indent: 40px;
     line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+section > main > p.centro{
+    text-align: center;
+    font-family: var(--fonte-barbie);
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 section > main > p > a.link{
     background-color: var(--cor1);
     text-decoration: none;
+    padding: 2px 5px;
 }
 
 section > main > p > a.link:hover{
     text-decoration: underline;
 }
 
+section > main > picture > img{
+    margin: auto;
+    display: block;
+    border: 1px solid var(--cor3);
+    min-width: 300px;
+}
+
 div.video{
     background-color: var(--cor2);
-    margin: 0px -10px 30px -10px;
+    margin: 0px -10px 20px -10px;
     padding: 20px;
-    padding-bottom: 55%;
     position: relative;
+    padding-bottom: 40%;
 }
 
 div.video > iframe{
@@ -128,4 +140,14 @@ footer{
 
 footer > p{
     padding: 5px;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover{
+    text-decoration: underline;
+    font-weight: bold;
 }
