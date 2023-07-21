@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem de Fundo</title>
+    <title>Fundo Fixo de tela</title>
     <style>
         body{
             height: 100vh;
@@ -12,11 +12,17 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+        /*
+            shorthand - background
+            color > image > position > repeat > [size] > attachment
+            shorthand funciona, porém o background size não funciona no momento, podendo usar de fora a parte
+            */
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,6 +33,9 @@
 <body>
     <main>
     <h1>Teste de Imagem de Fundo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel suscipit ullam dolorum commodi corporis non assumenda facilis quaerat vitae officia, iste, necessitatibus maiores exercitationem quos harum, sed expedita optio. Aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus fugiat minus, voluptates necessitatibus doloremque rem eius nesciunt esse. Possimus laudantium dolorum rerum, sapiente eum est doloremque repellendus incidunt fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis laboriosam asperiores quos, nam velit cum soluta deserunt, animi quisquam doloremque ab explicabo eius corporis tenetur? Obcaecati iste blanditiis ut voluptatum?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel suscipit ullam dolorum commodi corporis non assumenda facilis quaerat vitae officia, iste, necessitatibus maiores exercitationem quos harum, sed expedita optio. Aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus fugiat minus, voluptates necessitatibus doloremque rem eius nesciunt esse. Possimus laudantium dolorum rerum, sapiente eum est doloremque repellendus incidunt fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis laboriosam asperiores quos, nam velit cum soluta deserunt, animi quisquam doloremque ab explicabo eius corporis tenetur? Obcaecati iste blanditiis ut voluptatum?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel suscipit ullam dolorum commodi corporis non assumenda facilis quaerat vitae officia, iste, necessitatibus maiores exercitationem quos harum, sed expedita optio. Aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus fugiat minus, voluptates necessitatibus doloremque rem eius nesciunt esse. Possimus laudantium dolorum rerum, sapiente eum est doloremque repellendus incidunt fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis laboriosam asperiores quos, nam velit cum soluta deserunt, animi quisquam doloremque ab explicabo eius corporis tenetur? Obcaecati iste blanditiis ut voluptatum?</p>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel suscipit ullam dolorum commodi corporis non assumenda facilis quaerat vitae officia, iste, necessitatibus maiores exercitationem quos harum, sed expedita optio. Aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet delectus fugiat minus, voluptates necessitatibus doloremque rem eius nesciunt esse. Possimus laudantium dolorum rerum, sapiente eum est doloremque repellendus incidunt fugit! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis laboriosam asperiores quos, nam velit cum soluta deserunt, animi quisquam doloremque ab explicabo eius corporis tenetur? Obcaecati iste blanditiis ut voluptatum?</p>
     </main>
 </body>
