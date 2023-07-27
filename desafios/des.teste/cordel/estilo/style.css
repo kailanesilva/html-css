@@ -5,9 +5,8 @@
 
 :root{
     --cor1: #CC2114;
-    --cor2: #80140D;
+    --cor2: #BD241C;
 
-    --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
     --fonte-destaque: 'Racing Sans', cursive;
     --fonte-principal: 'Bad Script', cursive;
 }
@@ -41,6 +40,7 @@ section{
     font-size: 3vw;
     padding-left: 25px;
     font-family: 'Bad Script', cursive;
+    font-weight: bold;
 }
 
 section > p{
@@ -55,13 +55,33 @@ section.normal{
 
 section.imagem{
     background-color: black;
-    color: white;
+    color: var(--cor2);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 10px 5px 5px rgba(0, 0, 0, 0.267);
 }
 
 section.imagem > p{
-    background-color: rgba(54, 53, 53, 0.342);
+    background-color: rgba(54, 53, 53, 0.247);
     display: inline-block;
     padding: 10px;
+}
+
+section#img1{
+    background-image: url('../imagens/background01.jpg');
+}
+
+section#img2{
+    background-image: url('../imagens/background02.jpg');
+}
+
+section#img3{
+    background-image: url('../imagens/background03.jpg');
+}
+
+section#img4{
+    background-image: url('../imagens/background04.jpg');
 }
 
 a{
