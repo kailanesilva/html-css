@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+:root{
+    --cor1: #CC2114;
+    --cor2: #80140D;
+
+    --fonte-padrão: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-destaque: 'Racing Sans', cursive;
+    --fonte-principal: 'Bad Script', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--cor1);
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 25px;
+}
+
+header > h1{
+    font-size: 7vh;
+    padding-bottom: 5px;
+}
+
+header > p{
+    padding-bottom: 25px;
+}
+
+section{
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    font-size: 3vw;
+    padding-left: 25px;
+    font-family: 'Bad Script', cursive;
+}
+
+section > p{
+    padding-bottom: 5vh;
+}
+
+section.normal{
+    background-color: white ;
+    color: var(--cor2);
+
+}
+
+section.imagem{
+    background-color: black;
+    color: white;
+}
+
+section.imagem > p{
+    background-color: rgba(54, 53, 53, 0.342);
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--fonte-destaque);
+}
