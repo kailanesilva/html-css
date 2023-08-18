@@ -24,13 +24,6 @@ div{
 
 table{
     border-collapse: collapse;
-    position: relative;
-}
-
-thead > tr > th{
-    position: sticky;
-    top: -1px;
-    background-color: rgba(128, 128, 128, 0.801);
 }
 
 caption{
