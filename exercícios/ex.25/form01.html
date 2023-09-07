@@ -12,12 +12,13 @@
 </head>
 <body>
     <h1>Meu Primeiro Formulário</h1>
-    <form action="cadastro.javascript" autocomplete="off">
+    <form action="cadastro.javascript" method="get" autocomplete="off">
         <p> <label for="inome">Nome:</label> 
             <input type="text" name="nome" id="inome"></p>
         <p> <label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
     </form>
+    <!--Método GET é o método padrão, usado quando não há conteúdos sensíveis como senhas e dados pessoais e arquivos. Porém, o GET tem um limite: só dá para mandar dados com até 3000 bytes (praticamente 3000 letras), se ultrapassar o método GET não é o adequado. Para usar conteúdos sensíveis o mais adequado é o método POST (mais na frente para proteger dados tem que estudar HTTPS que é o ideal), para os dados não aparecer na URL, se os dados ultrapassar mais de 3000 bytes e envios de arquivos-->
 </body>
 </html>
